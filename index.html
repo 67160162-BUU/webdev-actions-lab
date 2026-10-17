@@ -1,18 +1,152 @@
 <!doctype html>
-<html lang="th">
+<html lang="th" data-theme="light">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My GitHub Pages Lab</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gatunyu Sanguansatjawaja | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<main class="card">
-<h1>My First Web Development Lab On Github Pages</h1>
-<p>ชื่อ: กตัญญู สงวนสัจวาจา | รหัสนิสิต: 67160162 </p>
-<p id="status">Ready to deploy</p>
-<button id="helloBtn">Say Hello</button>
-</main>
-<script src="script.js"></script>
+  <header class="navbar">
+    <div class="nav-brand">
+      <span class="logo-dot"></span>
+      <span data-i18n="brand">Gatunyu.dev</span>
+    </div>
+    <nav class="nav-links">
+      <a href="#about" data-i18n="navAbout">เกี่ยวกับฉัน</a>
+      <a href="#skills" data-i18n="navSkills">ทักษะ</a>
+      <a href="#contact" data-i18n="navContact">ติดต่อ</a>
+    </nav>
+    <div class="nav-controls">
+      <button id="langToggle" class="control-btn" aria-label="Toggle Language">EN</button>
+      <button id="themeToggle" class="control-btn" aria-label="Toggle Theme">🌙</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Hero / Header Card -->
+    <section class="card hero-card">
+      <div class="badge" data-i18n="badge">GitHub Actions & Pages Lab</div>
+      <h1 data-i18n="heroTitle">กตัญญู สงวนสัจวาจา</h1>
+      <p class="subtitle" data-i18n="heroSubtitle">รหัสนิสิต: 67160162 | คณะวิทยาการสารสนเทศ มหาวิทยาลัยบูรพา (BUU)</p>
+      <p id="status" class="status-box" data-i18n="statusReady">พร้อมสำหรับการ Deploy อัตโนมัติด้วย GitHub Actions 🚀</p>
+      <div class="hero-actions">
+        <button id="helloBtn" class="primary-btn" data-i18n="helloBtn">ทักทาย (Say Hello)</button>
+      </div>
+    </section>
+
+    <!-- Section 1: About Me -->
+    <section id="about" class="card section-card">
+      <div class="section-header">
+        <span class="section-icon"></span>
+        <h2 data-i18n="aboutTitle">About Me (เกี่ยวกับฉัน)</h2>
+      </div>
+      <p data-i18n="aboutDesc1">
+        สวัสดีครับผมชื่อ <strong>กตัญญู สงวนสัจวาจา</strong> นิสิตชั้นปีที่ 3 คณะวิทยาการสารสนเทศ สาขาปัญญาประดิษฐ์ประยุกต์ มหาวิทยาลัยบูรพา (รหัสนิสิต 67160162) 
+      </p>
+      <p data-i18n="aboutDesc2">
+        ผมชอบเรียนรู้เทคโนโลยีใหม่ๆ ตั้งแต่การออกแบบ Front UI/UX ที่สวยงามใช้งานง่าย ไปจนถึง Backend การเชื่อมระบบกับฐานข้อมูลและการสร้าง API และ function ที่ทันสมัยต่างๆ
+      </p>
+      <div class="info-grid">
+        <div class="info-item">
+          <span class="info-label" data-i18n="labelEdu">การศึกษา</span>
+          <span class="info-value" data-i18n="valEdu">มหาวิทยาลัยบูรพา (BUU)</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label" data-i18n="labelFocus">ความสนใจ</span>
+          <span class="info-value" data-i18n="valFocus">Full-Stack Web & Cloud Automation</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label" data-i18n="labelGoal">เป้าหมาย</span>
+          <span class="info-value" data-i18n="valGoal">สร้างซอฟต์แวร์ที่มีคุณภาพและส่งมอบได้อย่างรวดเร็ว</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Skills -->
+    <section id="skills" class="card section-card">
+      <div class="section-header">
+        <h2 data-i18n="skillsTitle">Skills (ทักษะความสามารถ)</h2>
+      </div>
+      <p data-i18n="skillsSubtitle">ทักษะและเครื่องมือที่ใช้ในการพัฒนาโปรเจกต์และการเรียนรู้ในห้องปฏิบัติการ:</p>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3 data-i18n="skillCatFrontend">Frontend Development</h3>
+          <div class="skill-tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3 / Responsive</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">DOM Manipulation</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 data-i18n="skillCatBackend">Backend Development</h3>
+          <div class="skill-tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">Express.js</span>
+            <span class="tag">API</span>
+            <span class="tag">PHP</span>
+            <span class="tag">Database</span>
+            <span class="tag">RESTful API</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 data-i18n="skillCatDevops">DevOps & Automation</h3>
+          <div class="skill-tags">
+            <span class="tag">Git & GitHub</span>
+            <span class="tag">GitHub Actions (CI/CD)</span>
+            <span class="tag">GitHub Pages</span>
+            <span class="tag">Shell Scripting (Bash)</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 data-i18n="skillCatTools">Tools & Workflow</h3>
+          <div class="skill-tags">
+            <span class="tag">Antigravity</span>
+            <span class="tag">macOS / Windows / Terminal</span>
+            <span class="tag">AI Pair Programming</span>
+            <span class="tag">Agile & Problem Solving</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Contact -->
+    <section id="contact" class="card section-card">
+      <div class="section-header">
+        <h2 data-i18n="contactTitle">Contact (ช่องทางการติดต่อ)</h2>
+      </div>
+      <p data-i18n="contactSubtitle">สามารถติดต่อพูดคุย แลกเปลี่ยนความรู้ หรือติดตามผลงานของผมได้ตามช่องทางด้านล่างนี้ครับ :</p>
+      <div class="contact-list">
+        <a href="mailto:67160162@go.buu.ac.th" class="contact-item">
+          <span class="contact-icon">✉️</span>
+          <div>
+            <strong data-i18n="contactEmailLabel">อีเมลมหาวิทยาลัย</strong>
+            <p>67160162@go.buu.ac.th</p>
+          </div>
+        </a>
+        <a href="https://github.com/67160162-BUU" target="_blank" rel="noopener noreferrer" class="contact-item">
+          <span class="contact-icon">🐙</span>
+          <div>
+            <strong data-i18n="contactGithubLabel">GitHub Profile</strong>
+            <p>github.com/67160162-BUU</p>
+          </div>
+        </a>
+        <div class="contact-item">
+          <span class="contact-icon">📍</span>
+          <div>
+            <strong data-i18n="contactLocationLabel">สถานที่</strong>
+            <p data-i18n="contactLocationVal">บางแสน, ชลบุรี, ประเทศไทย</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p data-i18n="footerText">© 2026 กตัญญู สงวนสัจวาจา (67160162) — สร้างและอัปเดตอัตโนมัติด้วย GitHub Actions</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
