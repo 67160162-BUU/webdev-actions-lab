@@ -12,9 +12,9 @@ const translations = {
     helloBtn: 'ทักทาย (Say Hello)',
     aboutTitle: 'About Me (เกี่ยวกับฉัน)',
     aboutDesc1:
-      'สวัสดีครับ! ผมชื่อ <strong>กตัญญู สงวนสัจวาจา</strong> นิสิตชั้นปีที่ 2 คณะวิทยาการสารสนเทศ มหาวิทยาลัยบูรพา (รหัสนิสิต 67160162) ผู้มีความหลงใหลในการพัฒนาเว็บไซต์และการทำระบบอัตโนมัติ (DevOps & CI/CD)',
+      'สวัสดีครับผมชื่อ <strong>กตัญญู สงวนสัจวาจา</strong> นิสิตชั้นปีที่ 3 คณะวิทยาการสารสนเทศ สาขาปัญญาประดิษฐ์ประยุกต์ มหาวิทยาลัยบูรพา (รหัสนิสิต 67160162)',
     aboutDesc2:
-      'ผมชอบเรียนรู้เทคโนโลยีใหม่ๆ ตั้งแต่การออกแบบ UI ที่สวยงามใช้งานง่าย ไปจนถึงการตั้งค่า GitHub Actions เพื่อตรวจสอบโค้ดและ Deploy เว็บไซต์ขึ้นสู่ GitHub Pages อย่างเป็นระบบ',
+      'ผมชอบเรียนรู้เทคโนโลยีใหม่ๆ ตั้งแต่การออกแบบ Front UI/UX ที่สวยงามใช้งานง่าย ไปจนถึง Backend การเชื่อมระบบกับฐานข้อมูลและการสร้าง API และ function ที่ทันสมัยต่างๆ',
     labelEdu: 'การศึกษา',
     valEdu: 'มหาวิทยาลัยบูรพา (BUU)',
     labelFocus: 'ความสนใจ',
@@ -29,7 +29,7 @@ const translations = {
     skillCatTools: 'Tools & Workflow',
     contactTitle: 'Contact (ช่องทางการติดต่อ)',
     contactSubtitle:
-      'สามารถติดต่อพูดคุย แลกเปลี่ยนความรู้ หรือติดตามผลงานของผมได้ตามช่องทางด้านล่างนี้ครับ (สามารถแก้ไขข้อมูลเพิ่มเติมได้):',
+      'สามารถติดต่อพูดคุย แลกเปลี่ยนความรู้ หรือติดตามผลงานของผมได้ตามช่องทางด้านล่างนี้ครับ :',
     contactEmailLabel: 'อีเมลมหาวิทยาลัย',
     contactGithubLabel: 'GitHub Profile',
     contactLocationLabel: 'สถานที่',
@@ -49,9 +49,9 @@ const translations = {
     helloBtn: 'Say Hello',
     aboutTitle: 'About Me',
     aboutDesc1:
-      'Hello! I am <strong>Gatunyu Sanguansatjawaja</strong>, a 2nd-year student at the Faculty of Informatics, Burapha University (ID: 67160162), passionate about modern Web Development and DevOps / CI/CD automation.',
+      'Hello! I am <strong>Gatunyu Sanguansatjawaja</strong>, a 3rd-year student majoring in Applied Artificial Intelligence at the Faculty of Informatics, Burapha University (ID: 67160162).',
     aboutDesc2:
-      'I enjoy building clean, responsive user interfaces and configuring automated GitHub Actions workflows to verify and deploy applications seamlessly to GitHub Pages.',
+      'I enjoy learning modern technologies, from crafting beautiful and intuitive Front-end UI/UX to Backend database integration and building modern APIs & functions.',
     labelEdu: 'Education',
     valEdu: 'Burapha University (BUU)',
     labelFocus: 'Focus Areas',
